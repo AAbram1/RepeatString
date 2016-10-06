@@ -1,0 +1,13 @@
+function repeat (str,num)
+{
+	debugger;
+	var finalstring = "";
+  for (num ; num > 0 ; num--)
+  {
+     finalstring += str;
+     
+  }
+  return finalstring;
+}
+
+repeat("yo",6);
